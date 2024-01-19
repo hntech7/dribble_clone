@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+.navbar {
+  padding-top: 25px;
+}
+
+.bg-color {
+  background-color: #f8f7f4;
+  font-size: 14px;
+}
+
+.navbar-brand {
+  font-weight: 400;
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+
+  padding-right: 500px;
+}
+
+.searchfield {
+  padding-right: 40px;
+}
+.form-control {
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  width: 270px;
+}
+
+.btn {
+  font-family: sans-serif;
+  font-size: 15px;
+  border-radius: 20px;
+  font-weight: 500;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 40px;
+}
+
+.hero1-color {
+  background-color: #f8f7f4;
+}
+
+.badge {
+  padding: 10px;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.title1 {
+  font-family: pocifico;
+  font-weight: lighter;
+}
+
+.btn2 {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 15px;
+  border-radius: 30px;
+  font-weight: 500;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 40px;
+}
+.slider {
+  height: 290px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  display: grid;
+  overflow: hidden;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(250px * 16);
+  animation: scroll 40s backwards infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 8));
+  }
+}
+
+.slide {
+  display: flex;
+
+  width: 250px;
+  height: 270px;
+  align-items: normal;
+  padding: 13px;
+}
+img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  box-shadow: #808080 5px 5px 5px 5px;
+}
